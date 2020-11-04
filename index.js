@@ -1,4 +1,4 @@
-export const rehype2qmd = () => (rootNode) => {
+module.exports = () => (rootNode) => {
 	if (rootNode.length === 0)
 		return [];
 
